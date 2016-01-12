@@ -21,13 +21,19 @@ camel2kebab('fontSize');
 
 ## API
 
-### camel2kebab(input)
+### camel2kebab(input, toLowerCase)
 
 #### input
 
 Type: `string`
 
 Input camelCased string
+
+#### toLowerCase
+
+**true** by default
+
+Covert the whole input string to lowercase
 
 ## License
 

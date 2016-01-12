@@ -7,6 +7,10 @@ test('works', t => {
 	t.is(camel2kebab('PascalCase'), 'pascal-case')
 })
 
+test('not force to be lowercase', t => {
+	t.is(camel2kebab('SSSize', false), 'SSSize')
+})
+
 test('throws', t => {
 	t.throws(function () {
 		camel2kebab(12)

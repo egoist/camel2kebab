@@ -1,6 +1,6 @@
 {
   "name": "camel2kebab",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "camelCase/PascalCase to kebab-case",
   "license": "MIT",
   "repository": "egoist/camel2kebab",
